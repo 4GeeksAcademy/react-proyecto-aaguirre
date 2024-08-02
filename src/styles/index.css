@@ -10,54 +10,59 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.navbar{
+    background-color: rgb(227, 247, 227);
+}
+
+
+.btn{
+    background: rgb(170, 208, 245);   
+}
 
 .contenedor {
-margin: auto;
-  
-
- 
-
+    margin: auto;
 }
 
-.lead{
-    font-size: 18px;
+.lead {
+    font-size: 15px;
 }
 
-.titulo-jumb{
+.titulo-jumb {
     font-size: 25px;
 }
 
-.jumbotron-principal{
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-top: 40px;
+.jumbotron-principal {
+   margin-top: 30px;
     margin-bottom: 30px;
+    background: rgb(221, 238, 221)
 }
 
 
-
-.cart-text{
+.cart-text {
     font-size: 13px;
 }
 
-.cart-container{
-    margin-top: 10px;
-   
-    height: 400px;
+.card{
+    margin: auto;
+    height: 450px
     
-    
+
 }
 
-.contenedor{
-    width: 1200px;
-    height: auto;
+.contenedor {
+    width: auto;
+    max-height: 700px;
     display: block;
-   
+    margin: 40px;
+    
 }
 
-.jumbotron-principal{
+.jumbotron-principal {
     margin-left: auto;
     margin-right: auto;
     align-items: center;
 }
 
+.barra-baja{
+    background:  rgb(227, 247, 227);
+}
