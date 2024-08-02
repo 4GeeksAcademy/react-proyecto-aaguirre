@@ -1,17 +1,18 @@
 import React from "react";
 
-const Card = ({ image, text, buttonText, link }) => {
+const Card = ({ image, text, titulo, buttonText, link }) => {
     return (
-        <div className="cart-container col-sm-10 col-md-6 col-lg-3 " >
-            <img className="cart-img  "src={image} />
-            <div className="cart-body ">
-                <p className="cart-text ">{text}</p>
-                <div className="botn d-flex justify-content-center">
+
+            <div className="card col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+                <img className="cart-img  " src={image} />
+                <div className="cart-body ">
+                    <h4 className="titulos">{titulo}</h4>
+                    <p className="cart-text ">{text}</p>
                     <a href={link} className="mb-4 btn btn-light">{buttonText}</a>
+                   
                 </div>
             </div>
-
-        </div>
+    
 
 
 
